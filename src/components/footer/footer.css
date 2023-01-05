@@ -1,0 +1,29 @@
+
+.footer{
+                  background-color: black;
+
+
+}
+.social-icones a{
+                  text-decoration: none;
+                  padding: 1rem;
+
+
+}
+.social-icones a i{
+                  font-size: 3rem;
+                  padding-top: 10vh;
+                  padding-bottom: 10vh;
+                  color: rgb(40, 40, 40);
+                  transition: transform .4s; 
+}
+.social-icones a i:hover{
+                  color: rgb(68, 68, 165);
+                  transform: scale(1.2);
+}
+.footer-centent h3{
+                  color: aliceblue;
+                  font-size: 10rem;
+}
+
+

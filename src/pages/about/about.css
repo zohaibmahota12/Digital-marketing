@@ -1,0 +1,137 @@
+.about{
+                  background-color: rgb(45, 133, 196);
+}
+.about-title h1{
+                  color: white;
+                  margin-top: 5vh;
+}
+.about-title p{
+               margin-top: 10vh;   
+               margin-bottom: 5vh;
+               color: white;
+               font-size: 1.4rem;
+
+}
+.about-title-image img{
+                  margin-top: 5vh;
+                  margin-bottom: 5vh;
+                  line-height: 36px;
+                  font-family: Roboto;
+                  text-align: justify;
+                  font-weight: 300;
+}
+.dslc-text-module-content{
+                  background-color: rgb(248, 249, 250);
+                  font-weight: 500;
+}
+
+
+.dslc-text-module-content h2{
+
+                  font-size: 20px;
+                  line-height: 26px;
+                 
+                  font-weight: 300;
+                  text-align: justify;
+padding-top: 6vh;
+padding-bottom: 6vh;
+
+
+}
+
+.inner-text h3{
+                  font-size: 1rem;
+                  line-height: 24px;
+                  font-weight: 300;
+                  line-height: 26px;
+                  align-content: center;
+                  text-align: justify;
+                 
+}
+.client{
+background-color: rgb(55, 62, 69);
+
+
+}
+.client-fav-icone a{
+                  font-size: 1.5rem;
+                  color: white;
+                  text-decoration: none;
+                  text-align: justify;
+                
+}
+.client-fav-icone a i{
+                  padding-top: 10vh;
+                  padding-bottom: 10vh;
+}
+.our-vision{
+                  background-color: rgb(89, 172, 231);
+
+}
+.our-vision-title h5{
+                  font-size: 20px;
+                  color: rgb(255, 255, 255);
+                  font-weight: 300;
+}
+.our-vision-title {
+                  font-size: 1.4rem;
+                  font-weight: 400;
+                  color: white;
+                  margin-bottom: 5vh;         
+}
+.passion-title h1{
+padding-top: 5vh ; 
+font-weight: 200;
+font-size: 4rem;
+margin-bottom: 4vh;
+}
+.passion-title p{
+                  font-size: 2rem;
+                  font-weight: 300;
+                  line-height: 2.5rem;
+                  margin-bottom: 5vh;
+}
+.passion-inner-image img{
+                  border-radius: 40%;
+                  transition: transform .4s; 
+                  margin-bottom: 5vh;
+}
+.passion-inner-image img:hover{
+                  transform: scale(1.2);
+}
+.contect-title a{
+                  text-decoration: none;
+                  color: white;
+}
+.contect-title {
+                  background-color: rgb(54, 61, 65);
+                  
+}
+.contect-title:hover{
+                  background-color: rgb(132, 132, 189);
+}
+.contect-us{
+                 
+                  background-color: rgb(32, 34, 35);
+
+}
+.contect-info-text h4{
+                  text-align: justify;    
+                  font-weight: 150;
+                  line-height: 1.9rem;
+                  font-size: 1.3rem;
+                  margin-left: 2rem;
+                  font-weight: 200;
+}
+.contect-info-text{
+                  color: rgb(255, 255, 255);
+                  
+
+}
+.info-title-1{
+                  color: rgb(237, 237, 237);
+}
+.info{
+                  margin-top: 18vh;
+                  margin-bottom: 10vh;
+}

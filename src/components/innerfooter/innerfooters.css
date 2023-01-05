@@ -1,0 +1,43 @@
+.contect-title a{
+                  text-decoration: none;
+                  color: white;
+}
+.contect-title {
+                  background-color: rgb(54, 61, 65);
+                  
+}
+.contect-title a h3{
+padding-top: 8vh;
+padding-bottom: 8vh;
+font-weight: 300;
+font-size: 2.5rem;
+border-bottom: 3px solid rgb(135, 73, 49);;
+}
+.contect-title:hover{
+                  background-color: rgb(132, 132, 189);
+}
+.contect-us{
+                 
+                  background-color: rgb(32, 34, 35);
+
+}
+.contect-info-text h4{
+                  text-align: justify;    
+                  font-weight: 150;
+                  line-height: 1.9rem;
+                  font-size: 1.3rem;
+                  margin-left: 2rem;
+                  font-weight: 200;
+}
+.contect-info-text{
+                  color: rgb(255, 255, 255);
+                  
+
+}
+.info-title-1{
+                  color: rgb(237, 237, 237);
+}
+.info{
+                  margin-top: 18vh;
+                  margin-bottom: 10vh;
+}

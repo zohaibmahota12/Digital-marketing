@@ -1,0 +1,35 @@
+
+
+.services-title h1{
+                  font-size: 3.5rem;
+                  margin-top: 5vh;
+}
+.my-text{
+                  font-size: 1.3rem;
+                  color: rgb(149, 147, 147);
+}
+
+
+.my-title h1{
+                  font-size: 1rem;
+                  color: white;
+}
+.my-title p{
+                  color: white;
+                  justify-content: center;
+                  padding-top: 4vh;
+}
+.learn-more h4{
+                  color: white;
+}
+.learn-more{
+       padding-bottom: 3vh;    
+       padding-top: 3vh;    
+         
+}
+.services-cards {
+                  background-color: rgb(255, 255, 255);
+}
+.service-card1{
+       background-color: red;
+}

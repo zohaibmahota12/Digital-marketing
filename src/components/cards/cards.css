@@ -1,0 +1,29 @@
+.myservice{
+                  background-color: green;
+                  
+}
+.myservice-img img{
+                  width: 100%;
+                  max-width: 100%;
+}
+.myservice-title{
+                  background-color: rgb(27, 114, 27);
+                  color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.myservice-title:hover{
+                  background-color: rgb(37, 104, 37);
+}
+.service1{
+                  background-color: rgb(24, 129, 12);
+}
+.services2{
+    background-color: rgb(255, 102, 0);
+}
+.services3{
+    background-color: red;
+}
+.services4{
+    background-color: rgb(51, 110, 177);
+}

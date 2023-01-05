@@ -1,0 +1,57 @@
+body{
+                  background-color: rgb(255, 255, 255);
+}
+.inner-image img{
+                  width: 100%;
+}
+.blog{
+
+                  padding-top:8vh;
+                  padding-bottom:8vh;
+}
+.blog-title h4 {
+                  font-weight: 300;
+                  
+}
+
+.blog-email a{
+                  text-decoration: none;
+}
+.blog-email a:hover{
+                  color: rgb(55, 78, 78);
+
+
+}
+.inner-blog-post {
+
+background-color: white;
+
+}
+.inner-image-data{
+                  padding-top: 10vh;
+}
+.inner-image-text h5{
+                  font-weight: 300;
+
+}
+.inner-image-text span{
+font-size: 1.6rem;
+font-weight: 200;
+color: gray;
+}
+
+.inner-image-text p{
+                  font-weight: 300;
+                  font-size: 1.3rem;
+                  margin-top: 2rem;
+
+}
+.inner-button{
+
+border:1px solid gray ;
+
+}
+.inner-button:hover{
+                  border: 1px solid gray;
+                  background-color: darksalmon;
+}

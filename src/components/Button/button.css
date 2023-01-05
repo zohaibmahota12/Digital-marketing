@@ -1,0 +1,47 @@
+.Button {
+                  background-color: rgb(235, 233, 233);
+                  padding: 2rem;
+
+  	
+
+}
+.mybuttonn{
+                 margin: auto;
+	
+                  background-color: rgb(51, 153, 255);
+                  border-color: transparent;
+                  border-width: 1px;
+                  border-style: solid solid solid solid;
+                  border-radius: 4px;
+                  display: inline-block;
+                  color: rgb(255, 255, 255);
+                  font-size: 23px;
+                  font-weight: 300;
+}
+.mybuttonn:hover{
+                  background-color: rgb(45, 99, 192);
+border-color: transparent;
+color: rgb(255, 255, 255);
+}
+.mybutton{
+                  margin: auto;
+	display:flex;
+  	justify-content: center;
+  	align-items: center;
+                  background-color: rgb(255, 102, 0);
+                  border-color: transparent;
+                  border-width: 1px;
+                  border-style: solid solid solid solid;
+                  border-radius: 4px;               
+                  padding-right: 24px;
+                  display: inline-block;
+                  color: rgb(255, 255, 255);
+                  font-size: 23px;
+                  font-weight: 300;
+}
+
+.mybutton:hover{
+background-color: rgb(204, 81, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+}
