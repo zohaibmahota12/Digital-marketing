@@ -51,7 +51,7 @@ export default function Home() {
       </div>
       {/*##############################################################
                       dslc-modules-section 
-      ##########################################################*/}
+            ##########################################################*/}
 
       <div className="dslc-modules-section">
         <div className="container">

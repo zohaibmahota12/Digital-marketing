@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export default function Navbar({ mylogo }) {
   return (
@@ -8,12 +8,12 @@ export default function Navbar({ mylogo }) {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <div className="digital-image">
-           <img src={mylogo} alt="this is img" /> 
+            <img src={mylogo} alt="this is img" />
           </div>
           <Link className="navbar-brand" to="/Home"></Link>
 
           <ul className="navbar-nav ms-auto mb-2 pt-4 pb-4">
-          <li className="nav-item">
+            <li className="nav-item">
               <Link className="nav-link " aria-current="page" to="/Home">
                 Home
               </Link>
@@ -26,7 +26,11 @@ export default function Navbar({ mylogo }) {
             <li className="nav-item pe-4">
               <div class="dropdown">
                 <div className="row">
-                  <Link className="nav-link " aria-current="page" to="/Services">
+                  <Link
+                    className="nav-link "
+                    aria-current="page"
+                    to="/Services"
+                  >
                     Services
                   </Link>
                   <div class="dropdown-options">
@@ -78,7 +82,12 @@ export default function Navbar({ mylogo }) {
               </Link>
             </li>
             <Link to="" target="_blank">
-             <p className="text-center mx-4 mt-2"><button className="Mybutton"><i class="fa-thin fa fa-square-poll-vertical"></i> FREE CONSULTATION</button> </p> 
+              <p className="text-center mx-4 mt-2">
+                <button className="Mybutton">
+                  <i class="fa-thin fa fa-square-poll-vertical"></i> FREE
+                  CONSULTATION
+                </button>{" "}
+              </p>
             </Link>
           </ul>
         </div>

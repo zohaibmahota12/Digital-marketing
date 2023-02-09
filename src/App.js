@@ -15,9 +15,9 @@ import Cards from "./components/cards/Cards";
 import Servicecard from "./components/servicecard/Servicecard";
 import logo from "./images/digital.png";
 import Page404 from "./components/Page404";
+// import Blogdetails from "./pages/blogdetails/Blogdetails";
 
 // import slider from "../../images/myimg/slider.gif"
-
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StudentMarks from "./StudentMarks";
@@ -36,24 +36,17 @@ function App() {
           <Route path="/contect" element={<Contect />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/*" element={<Page404 />} />
-        
         </Routes>
       </BrowserRouter>
-
+      {/* <Blogdetails/> */}
       {/* <Button/> */}
 
       {/* <Services/> */}
 
       {/* <Contect/> */}
-     {/* <StudentMarks/> */}
+      {/* <StudentMarks/> */}
       <InnerFooter />
       <Footer />
-     
-		<div>
-			<a href="#" class="scrollToTop text-center" >
-				<i class="scroll-fa fa fa-angle-up" aria-hidden="true"></i>
-			</a>
-		</div>
     </>
   );
 }

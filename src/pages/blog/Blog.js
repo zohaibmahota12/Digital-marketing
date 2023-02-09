@@ -1,6 +1,6 @@
 import React from "react";
 import "./blog.css";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export default function Blog() {
   return (
@@ -8,8 +8,7 @@ export default function Blog() {
       <div className="blog ">
         <div className="container">
           <div className="row">
-            <div
-              className="col-8">
+            <div className="col-8">
               <div className="blog-title ">
                 <h4>Latest company updates and industry news</h4>
               </div>
@@ -55,7 +54,7 @@ export default function Blog() {
           <div className="col-sm-6 mt-4">
             <div className="inner-image">
               <img
-                src="https://digitalmarketing.pk/wp-content/uploads/4-Map4Nepal-7-600x400.jpg"
+                src="https://digitalmarketing.pk/wp-content/uploads/best-price-ads-pasha-launchpad-2013-lahore-winner-1-600x400.jpg"
                 alt=""
               />
             </div>
@@ -64,14 +63,12 @@ export default function Blog() {
             <div className="inner-image-data">
               <div className="inner-image-text">
                 <h5 className="">
-                  Mapping Nepal in Map4Nepal Lahore Mapathon
+                We won “Best Innovative Idea” Award at 
                   <br />
                 </h5>
                 <span className="">June 5, 2015</span>
                 <p>
-                  Over 40 students volunteered to map Nepal, during #Map4Nepal
-                  Lahore Mapathon, to help the agencies providing relief and
-                  rehabilitation services in Nepal with…
+                We are pleased (and excited) to announce that our idea “Best Price Ads” won the “Best Innovative Idea” award at P@SHA LaunchPad 2013…
                 </p>
                 <button className="inner-button btn ">Continue reading</button>
               </div>

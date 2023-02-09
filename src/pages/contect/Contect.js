@@ -3,65 +3,48 @@ import "./contect.css";
 export default function Contect() {
   return (
     <>
-      <div className="container">
-        <form className="contact-form-blogger">
-          <div className="contact-form-wrap row">
-            <div className="col-md-6 mb-3">
-              <label className="form-label fs-7 fw-bold" for="field-name">
-                Your Name
-              </label>
-              <input
-                className="form-control bg-transparent jt-border-light text-reset"
-                id="field-name"
-                name="name"
-                required=""
-                type="text"
-                placeholder="Enter Name"
-              />
-            </div>
-            <div className="col-md-6 mb-3">
-              <label className="form-label fs-7 fw-bold" for="field-email">
-                Email Address
-              </label>
-              <input
-                className="form-control bg-transparent jt-border-light text-reset"
-                id="field-email"
-                name="email"
-                required=""
-                type="email"
-                placeholder="Enter Email"
-              />
-            </div>
-            <div className="col-12 mb-3">
-              <label className="form-label fs-7 fw-bold" for="field-message">
-                Message
-              </label>
-              <textarea
-                className="form-control bg-transparent jt-border-light text-reset"
-                id="field-message"
-                type="Number"
-                name="message"
-                required=""
-                rows="3"
-                placeholder="Enter Message"
-              ></textarea>
-            </div>
-            <div className="col-12 mb-3">
-              <button
-                className="btn btn-sm fw-bold py-2 px-5 jt-btn-primary"
-                type="submit"
-              >
-                SEND
-              </button>
-            </div>
-          </div>
-          <div
-            data-success="Thank you message sent successfully."
-            data-error="Message failed to send. Please try again an hour later."
-            className="contact-form-msg d-none border border-3 rounded text-center p-3 fs-7"
-          ></div>
-        </form>
+     <div className="container">
+    <div className="content">
+      <div className="left-side">
+        <div className="address details">
+          <i className="fas fa-map-marker-alt"></i>
+          <div className="topic">Address</div>
+          <div className="text-one">Surkhet, NP12</div>
+          <div className="text-two">Birendranagar 06</div>
+        </div>
+        <div className="phone details">
+          <i className="fas fa-phone-alt"></i>
+          <div className="topic">Phone</div>
+          <div className="text-one">+0098 9893 5647</div>
+          <div className="text-two">+0096 3434 5678</div>
+        </div>
+        <div className="email details">
+          <i className="fas fa-envelope"></i>
+          <div className="topic">Email</div>
+          <div className="text-one">codinglab@gmail.com</div>
+          <div className="text-two">info.codinglab@gmail.com</div>
+        </div>
       </div>
+      <div className="right-side">
+        <div className="topic-text">Send us a message</div>
+        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+      <form action="#">
+        <div className="input-box">
+          <input type="text" placeholder="Enter your name"/>
+        </div>
+        <div className="input-box">
+          <input type="text" placeholder="Enter your email"/>
+        </div>
+        <div className="input-box message-box">
+          
+        </div>
+        <div className="button">
+          <input type="button" value="Send Now" />
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
     </>
   );
 }

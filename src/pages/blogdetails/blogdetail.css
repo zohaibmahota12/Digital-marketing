@@ -1,0 +1,64 @@
+.blog-title h1 {
+  font-weight: 300;
+  color: rgb(60, 59, 59);
+  margin-top: 3rem;
+}
+.blog-title span {
+  color: gray;
+}
+button {
+  background-color: white;
+  border: 0.5px solid rgb(195, 193, 193);
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color: gray;
+
+  margin-top: 2rem;
+}
+.learn-more{
+    font-size:1rem;
+    color: rgb(28, 126, 165);
+    margin: 0;
+    margin-top: 0;
+    border-radius: 0px;
+
+} 
+.learn-more:hover{
+    background-color:rgb(11, 93, 126)
+}
+p.description{
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+.meta-avatar {
+    border: rgb(241, 241, 241);
+    border-width: 1px;
+    border-style: solid solid solid solid;
+
+}
+.meta-avatar .meta-icone img{
+    padding: 0.9rem;
+width: 5rem;
+height:5rem;
+}
+.meta-avatar .meta-icone a{
+   text-decoration: none;
+font-size: 1.5rem;
+justify-content: center;
+color: rgb(42, 160, 239);
+}
+.info-box {
+    border: rgb(241, 241, 241);
+    border-width: 1px;
+    border-style: solid solid solid solid;
+}
+.about-us{
+    border: rgb(241, 241, 241);
+    border-width: 1px;
+    border-style: solid solid solid solid;
+    padding: 1rem;
+    line-height: 1rem;
+}
+ .title h6{
+ font-size: 0.7rem;
+}
